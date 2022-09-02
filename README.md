@@ -52,6 +52,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+👤 **Author3**
+👤 **Basir Mohammadi**
+
+- GitHub: [@basirking](https://github.com/Basir-Mohammadi)
+- LinkedIn: [@Basir Mohammadi](https://www.linkedin.com/in/basirmohammadi/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
