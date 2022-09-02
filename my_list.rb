@@ -1,13 +1,13 @@
-﻿require './my_enumerable'
+﻿require './MyEnumerable'
 
 class MyList
   include MyEnumerable
 
-  def initialize(*items)
-    @list = items
+  def initialize(*list)
+    @list = *list
   end
 
-  def each(&block)
-    @list.each(&block)
+  def each
+    @list.each { |el| (yield el) }
   end
 end

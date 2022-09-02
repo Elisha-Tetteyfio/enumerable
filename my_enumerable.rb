@@ -1,14 +1,17 @@
 module MyEnumerable
-  include Enumerable
-  def all?(&block)
-    @list.all?(&block)
+  def all?
+    each { |e| return false unless yield e }
+    true
   end
 
-  def any?(&block)
-    @list.any?(&block)
+  def any?
+    each { |e| return true if yield e }
+    false
   end
 
-  def filter(&block)
-    @list.filter(&block)
+  def filter
+    array = []
+    each { |e| array << e if yield e }
+    array
   end
 end
